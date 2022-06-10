@@ -13,8 +13,12 @@ int mul(int a,int b){
 	return a*b;
 }
 
+int div(int a,int b){
+	return a/b;
+}
+
 
 int main(){
-	cout<<"Addition,Subtraction and Multiplication of two numbers 6,3 are respectively : "<<add(6,3)<<","<<sub(6,3)<<","<<mul(6,3)<<endl;
+	cout<<"Addition,Subtraction,Multiplication and division of two numbers 6,3 are respectively : "<<add(6,3)<<","<<sub(6,3)<<","<<mul(6,3)<<div(6,3)<<endl;
 	return 0;
 }
