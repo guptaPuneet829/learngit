@@ -6,6 +6,8 @@ int main{
 		cout<<"Git"<<endl;
 	}
 
+	cout<<"Done with for loops"<<endl;
+
 	return 0;
 }
 
